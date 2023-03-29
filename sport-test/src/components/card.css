@@ -1,0 +1,70 @@
+.back{
+  background-color: lemonchiffon
+}
+.header{
+  color: #ff944d;
+  background-color: aquamarine;
+  width: 100%;
+}
+.FPlayer-search {
+  margin-right: 880px; 
+  }
+  .search-feild {
+    width: 50%;
+    border-radius: 40px;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+  }
+  /* card details */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2%;
+    padding-top: 10px;
+  }
+  .child-container{
+    margin: 5%;
+  }
+  
+  .player-list {
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 10px;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 520px;
+  }
+  /* each element details */
+  .player-image {
+    height: 40%;
+    width: 100%;
+  }
+  .pname {
+    font-size: 22px;
+    font-weight: 600;
+    color: #75a3a3;
+    text-align: center;
+  }
+  .player-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .skill {
+    font-size: 18px;
+    color: darkgreen;
+  }
+  .code {
+    background-color:  #ff944d;
+    padding: 10px;
+  }
+  hr{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
